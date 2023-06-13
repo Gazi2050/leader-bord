@@ -10,6 +10,52 @@ body {
     ;
 }
 
+header {
+    background-color: #562EFF;
+    display: flex;
+    justify-content: space-between;
+}
+
+.upper {
+    display: flex;
+    padding-left: 13%;
+    padding-top: 1%;
+
+
+}
+
+.upper-look img {
+    width: 40px;
+    height: 51px;
+    margin-left: 13%;
+
+
+}
+
+.upper-text {
+    color: aliceblue;
+    margin-left: 10%;
+    margin-top: 10%;
+
+}
+
+.navigation {
+    display: flex;
+    margin-right: 20%;
+    margin-top: 1%;
+
+}
+
+.nav-item {
+    margin: 10%;
+}
+
+
+.nav-item a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
 main {
     display: flex;
     flex-direction: column;
